@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 4919539c557fed248a15dee1b74f6081, type: 3}
+    - {fileID: 2800000, guid: 9040bea65e096264b9e8a13083913a82, type: 3}
+    - {fileID: 2800000, guid: a41ca71a470c44c4eaed40e9f2008b59, type: 3}
+    - {fileID: 2800000, guid: 732abd9a489c8394d85186741e5d3900, type: 3}
+    - {fileID: 2800000, guid: bbf0786c198441948954aec5d27fb98a, type: 3}
+    - {fileID: 2800000, guid: 4528724184b39a04c91ab49f783c3c5e, type: 3}
+    - {fileID: 2800000, guid: 305beb9284c230e4ab50b05198f05626, type: 3}
+    - {fileID: 2800000, guid: e1bc484aa1905fc46bf53dcff95eaa66, type: 3}
+    - {fileID: 2800000, guid: 3318b369207352246aeda860170cf706, type: 3}
+    - {fileID: 2800000, guid: 6434a0b7af5ebf74391f583d1662883c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4528724184b39a04c91ab49f783c3c5e, type: 3}
+  - {fileID: 21300000, guid: 305beb9284c230e4ab50b05198f05626, type: 3}
+  - {fileID: 21300000, guid: 9040bea65e096264b9e8a13083913a82, type: 3}
+  - {fileID: 21300000, guid: 6434a0b7af5ebf74391f583d1662883c, type: 3}
+  - {fileID: 21300000, guid: 3318b369207352246aeda860170cf706, type: 3}
+  - {fileID: 21300000, guid: a41ca71a470c44c4eaed40e9f2008b59, type: 3}
+  - {fileID: 21300000, guid: e1bc484aa1905fc46bf53dcff95eaa66, type: 3}
+  - {fileID: 21300000, guid: 732abd9a489c8394d85186741e5d3900, type: 3}
+  - {fileID: 21300000, guid: bbf0786c198441948954aec5d27fb98a, type: 3}
+  - {fileID: 21300000, guid: 4919539c557fed248a15dee1b74f6081, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - star
+  - WhitePixel
+  - arenaBack
+  - Yellow Buton OK
+  - Yellow Button Play
+  - arenaGround
+  - Back
+  - banana
+  - hp
+  - apple
+  m_RenderDataMap: {}
+  m_Tag: SpriteAtlas
+  m_IsVariant: 0
