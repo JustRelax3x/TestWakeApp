@@ -6,9 +6,6 @@ public class FruitFactory : GameObjectFactory
     [SerializeField]
     private Fruit _applePrefab, _bananaPrefab;
 
-    [SerializeField]
-    private BehaviorData _apple, _banana;
-
     public Fruit Get(FruitType type, Transform parent)
     {
         Fruit instance = CreateGameObjectInstance(GetFruit(type), parent);
@@ -28,11 +25,6 @@ public class FruitFactory : GameObjectFactory
         }
         Debug.LogError($"No config for: {type}");
         return _applePrefab;
-    }
-
-    public void Reclaim(Fruit fruit)
-    {
-        Destroy(fruit.gameObject);
     }
 }
 

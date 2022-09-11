@@ -6,9 +6,6 @@ public class EnemyFactory : GameObjectFactory
     [SerializeField]
     private Enemy _circlePrefab, _squarePrefab;
 
-    [SerializeField]
-    private BehaviorData _circle, _square;
-
     public Vector3 SpawnPosition;
 
     public Enemy Get(EnemyType type, Transform parent)
@@ -31,11 +28,6 @@ public class EnemyFactory : GameObjectFactory
         }
         Debug.LogError($"No config for: {type}");
         return _circlePrefab;
-    }
-
-    public void Reclaim(Enemy enemy)
-    {
-        Destroy(enemy.gameObject);
     }
 }
 
